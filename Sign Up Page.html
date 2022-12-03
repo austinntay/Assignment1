@@ -1,0 +1,102 @@
+
+<body>
+    <title>Sign Up Page</title>
+    <form action="action_page.php" >
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="" name="email" required style="font-family:tahoma;">
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="" name="psw" required style="font-family:tahoma;">
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="" name="psw-repeat" required style="font-family:tahoma;">
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+     
+      
+          <div class="clearfix">
+            <button type="submit"  formaction="https://discord.com/login?redirect_to=%2Fchannels%2F%40me"class="signupbtn">Sign Up</button>
+            <form>
+                <input type="button" value="Back" onclick="history.back()" style="background-color:black;color: white;
+                font-size: 19px;border-radius: 10px;font-family: calibri;">
+            </form>
+          </div>
+        </div>
+      </form>
+</body>
+
+
+<style>
+    h1{
+        font-size: 45px;
+    }
+
+
+
+    body{
+        background-image: url(img/discord-best-bots-cover.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .container{
+        font-family:calibri;
+        text-align: center;
+        background-color: #414141;
+        color: white;
+        font-family: calibri;
+        width: 0px;
+        margin: auto;
+        width: 35%;
+        padding: 30px;
+        font-size: 22px;
+        line-height: 200%;
+        border: 3px solid #46439D;
+        border-radius: 15px;
+        padding-top:14px;
+        box-shadow: black 0 0 15px;
+
+    }
+    .signupbtn{
+        font-family: calibri;
+        font-size:20px;
+        border-style: none;
+        border-radius: 7px;
+        background-color: #46439D;
+        color:white;
+        width:50%;
+    }
+
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: rgb(34, 34, 34);
+        color: white;
+    }
+
+   
+
+    button:hover{
+        opacity:1;
+    }
+
+
+    hr{  
+        background-color: black;
+        color: black;
+        height: 1px;
+        border-color: black;
+        }
+        
+       
+</style>
